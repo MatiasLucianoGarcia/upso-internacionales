@@ -20,8 +20,8 @@ $(function () {
                     sliceValue: "Value 1",
                     type: "image",
                     url: "http://www.neveldo.fr/mapael/assets/img/marker1.png",
-                    width: 7,
-                    height: 23,
+                    width: 15,
+                    height: 30,
                     attrsHover: {
                         transform: "s1.5"
                     }
@@ -30,43 +30,48 @@ $(function () {
         },
     
         plots: {
-            'paris': {
-                latitude: 48.86,
-                longitude: 2.3444,
-                value: "Value 1",
-                tooltip: {content: "Paris<br />Population: 500000000"}
-            },
-            'newyork': {
-                latitude: 40.667,
-                longitude: -73.833,
-                value: "Value 1",
-                tooltip: {content: "New york<br />Population: 200001"}
-            },
-            'sydney': {
-                latitude: -33.917,
-                longitude: 151.167,
-                value: "Value 1",
-                tooltip: {content: "Sydney<br />Population: 600000"}
-            },
-            'brasilia': {
-                latitude: -15.781682,
-                longitude: -47.924195,
-                value: "Value 1",
-                tooltip: {content: "Brasilia<br />Population: 200000001"}
-            },
-            'tokyo': {
-                latitude: 35.687418,
-                longitude: 139.692306,
-                value: "Value 1",
-                tooltip: {content: "Tokyo<br />Population: 200001"}
-            },
-            'UNI':{
+            'Universidad Rovira i Virgili':{
                 latitude: 41.1166700,
                 longitude: 1.2500000,
                 value: "Value 1",
                 href:"#",
-                tooltip: {content: "<span style='font-weight:bold;'>Seine-Saint-Denis (93)</span><br />Population : 1534895"}
-            }
+                tooltip: {content: "<span style='font-weight:bold;'>Universidad Rovira i Virgili</span><br /><ul><li>Intercambio de docentes, investigadores y estudiantes</li><li>Programas y proyectos de investigación conjuntos</li><li>Publicaciones conjuntas y celebración de jornadas culturales</li><li>Actividades académicas</li><li>Conferencias internacionales, seminarios y congresos</li><li>Sitio web: https://www.urv.cat/es/</li></ul>"}
+            },
+            'Universidad del Tolima':{
+                latitude: 4.433333,
+                longitude: -75.233333,
+                value: "Value 1",
+                href:"#",
+                tooltip: {content: "<span style='font-weight:bold;'>Universidad del Tolima</span><br /><ul><li>Intercambio de profesores y estudiantes de grado y posgrado</li><li>Supervisión conjunta de estudiantes de posgrado (co-tutela)</li><li>Programas de doble titulación</li><li>Actividades de investigación conjunta</li><li>Seminarios y encuentros académicos</li><li>Programas académicos especiales y de corta duración</li><li>Sitio web: https://www.ut.edu.co/</li></ul>"}
+            },
+            'Universidad Deusto':{
+                latitude: 43.26271,
+                longitude: -2.92528,
+                value: "Value 1",
+                href:"#",
+                tooltip: {content: "<span style='font-weight:bold;'>Universidad Deusto</span><br /><ul><li>Intercambio de profesores y estudiantes de grado y posgrado</li><li>Programas de co-dirección de tesis doctorales</li><li>Programas de doble titulación</li><li>Actividades de investigación conjunta</li><li>Seminarios y encuentros académicos</li><li>Programas académicos especiales y de corta duración</li><li>Sitio web: https://www.deusto.es/cs/Satellite/deusto/es/universidad-deusto</li></ul>"}
+            },
+            'Universidad de Augsburg':{
+                latitude: 48.7775,
+                longitude: 11.431111,
+                value: "Value 1",
+                href:"#",
+                tooltip: {content: "<span style='font-weight:bold;'>Universidad de Augsburg</span><br /><ul><li>Intercambio de profesores y estudiantes de grado y posgrado</li><li>Supervisión conjunta de estudiantes de posgrado (co-tutela)</li><li>Programas de doble titulación</li><li>Actividades de investigación conjunta</li><li>Seminarios y encuentros académicos</li><li>Intercambio de materiales académicos</li><li>Programas académicos especiales y de corta duración</li><li>Sitio web: https://www.uni-augsburg.de/en/</li></ul>"}
+            },
+            'Università Degli Studi del Molise':{
+                latitude: 41.561,
+                longitude: 14.6684,
+                value: "Value 1",
+                href:"#",
+                tooltip: {content: "<span style='font-weight:bold;'>Università Degli Studi del Molise</span><br /><ul><li>Programas ERASMUS+</li><li>Sitio web: https://www.unimol.it/internazionale/progetto-earth/</li></ul>"}
+            },
+            'Universidad de Cuenca':{
+                latitude:-2.897414,
+                longitude:-79.004481,
+                value: "Value 1",
+                href:"#",
+                tooltip: {content: "<span style='font-weight:bold;'>Universidad de Cuenca</span><br /><ul><li>Colaboración y cooperación académica, científica y cultural</li><li>Intercambios académicos</li><li>Proyectos de Investigación y formación en temas de interés común</li><li>Publicación conjunta de libros</li><li>Sitio web: https://www.ucuenca.edu.ec/</li></ul>"}
+            },
         },
         areas: {
             "AF": {
