@@ -29,7 +29,7 @@
 
 </header>
 
-    <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
             
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,18 +65,19 @@
 <!-- Pagina -->
 
 
-    <div class=" container banner">
+    <div class="container banner">
       <img src="./assets/header-alumnosinternac.jpg" alt="">
     </div>
-
-    <div class="aviso container">
-      <p>Se encuentra abierta la inscripción para alumnos extranjeros de intercambio en el marco de los convenios bilaterales existentes para cursar materias de grado y/o participar de Proyectos de Investigación o de Extensión</p>
+    
+      <button class='mt-1 btn-flotante ' onclick='traducir()'>EN</button>
+    
+    <div  class="aviso container">
+      <p id="nota1">Se encuentra abierta la inscripción para alumnos extranjeros de intercambio en el marco de los convenios bilaterales existentes para cursar materias de grado y/o participar de Proyectos de Investigación o de Extensión</p>
     </div>
-
     <div class="container mt-3 ">
-        <h5 class="fondo-bordo">Documentacion a presentar</h5>
+        <h5 class="fondo-bordo">Documentacion a presentar:</h5>
         <ul>
-            <li><a href="./assets/Formulario-solicitud-de-admision-de-alumnos-extranjeros1.docx">Formulario de solicitud de admisión para estudiantes internacionales.</a></li>
+            <li><a class ="parrafo-formu" href="./assets/Formulario-solicitud-de-admision-de-alumnos-extranjeros1.docx">Formulario de solicitud de admisión para estudiantes internacionales.</a></li>
             <hr>
             <li><p>Carta de solicitud de admisión del postulante, incluyendo intenciones académicas y breve presentación personal, escrita en castellano.</p></li>
             <hr>
@@ -91,11 +92,11 @@
         </ul>
     </div>
 
-    <div class="aviso container">
-      <p>Nota: La documentación original deberá ser escaneada y enviada en un mismo archivo formato PDF por mail a internacionales@upso.edu.ar . No se aceptarán documentos escritos a mano, ilegibles o escaneo de fotocopias.
+    <div  class="aviso container">
+      <p id="nota2">Nota: La documentación original deberá ser escaneada y enviada en un mismo archivo formato PDF por mail a internacionales@upso.edu.ar . No se aceptarán documentos escritos a mano, ilegibles o escaneo de fotocopias.
         Una vez aprobada la postulación por la Universidad Provincial del Sudoeste, el interesado deberá presentar la siguiente documentación para su admisión definitiva:</p>
     </div>
-
+    
     <div class="container mt-3 ">
       <ul>
           <li><p>Certificación de idioma español, en caso de no provenir  de países hispanohablantes. En caso de no poseer dicho certificado, el estudiante deberá tomar un curso de español.</p></li>
@@ -108,7 +109,7 @@
           <hr>
       </ul>
   </div>
-  <div class="container">
+  <div id="tramite-mig" class="container">
     <p>Trámite migratorio:Es obligatorio y se debe completar dentro de los 30 días desde la llegada al país del estudiante en la Delegación local de la Dirección Nacional de Migraciones de Bahía Blanca.</p>
   </div>
 
@@ -124,7 +125,7 @@
 
 <div class="container">
   <h5 class="fondo-bordo">Información Relevante:</h5>
-  <div class="mt-1 p-3">
+  <div class="mt-1 p-3 informacion">
     <a href="https://www.upso.edu.ar/calendario/"><h6>Calendario Académico</h6></a>
     <a href="https://www.upso.edu.ar/carreras/"><h6>Oferta Académica</h6></a>
     <h6>Secretaría de Relaciones Institucionales y Comunicación</h6>
@@ -207,7 +208,7 @@
     <!-- Copyright -->
   
 </footer>
-
+    <script src="./js/movilidad.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
