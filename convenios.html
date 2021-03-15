@@ -26,6 +26,7 @@
         }</style>
     <!-- CSS  -->
     <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- Importamos Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -49,39 +50,44 @@
 
 </header>
 
-    <nav class="navbar  sticky-top navbar-expand-lg navbar-dark bg-dark ">
-        <div class="container">
-            
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav navbar-right ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Nosotros/About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="convenios.html">Convenios Internacionales</a>
-              </li>          
-              <li class="nav-item">
-                <a class="nav-link" href="#">Movilidad Academica</a>
-              </li>          
-              <li class="nav-item">
-                <a class="nav-link" href="#">Oportunidad Academica/International Students</a>
-              </li>          
-              <li class="nav-item">
-                <a class="nav-link" href="#">Novedades</a>
-              </li>          
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonios</a>
-              </li>        
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
-              </li>          
-            </ul>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+  <div class="container">
+      
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-right ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Nosotros/About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="convenios.html">Convenios Internacionales</a>
+        </li>          
+        <li class="nav-item">
+          <a class="nav-link" href="movilidad-academica.html">Movilidad Academica</a>
+        </li>          
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Oportunidad Academica/International Students</a>
+          <div class="dropdown-menu dropdown-menu-right desplegable" aria-labelledby="navbarDropdown">
+            <a  class="dropdown-item" href="/carreras.html">Carreras</a>
+            <a  class="dropdown-item" href="https://www.upso.edu.ar/cedets/">CEDETS</a>
+            <a  class="dropdown-item" href="https://www.upso.edu.ar/ediupso/">EdiUPSO</a>
           </div>
-        </div>
-      </nav>
+        </li>          
+        <li class="nav-item">
+          <a class="nav-link" href="novedades.html">Novedades</a>
+        </li>          
+        <li class="nav-item">
+          <a class="nav-link" href="testimonios.html">Testimonios</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">FAQs</a>
+        </li>          
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
       <!-- Pagina -->
@@ -112,72 +118,72 @@
 <!-- Footer -->
 <footer id="footer" class="page-footer font-small blue p-0 pt-4 col-12">
 
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-  
-          <!-- Content -->
-          <h5 class="text-uppercase"><img src="/assets/logo-UPSO.png"></h5>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none pb-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3 d-none d-md-inline-block">
-  
-          <ul class="list-unstyled">
-            <li>
-              <a [routerLink]="['/']">About us</a>
-            </li>
-            <li>
-              <a [routerLink]="['/profesionales']">Convenios Internacionales</a>
-            </li>
-            <li>
-              <a [routerLink]="['/sumate']">Oportunidad Academica</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-         <!--  <h6 class="text-uppercase">Redes Sociales</h6> -->
-  
-         <ul class="list-unstyled">
-            <li>
-              <a [routerLink]="['/']">Novedades</a>
-            </li>
-            <li>
-              <a [routerLink]="['/profesionales']">Testimonios</a>
-            </li>
-            <li>
-              <a [routerLink]="['/sumate']">FAQs</a>
-            </li>
-          </ul>
-        </div>
-        <!-- Grid column -->
-  
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase"><img src="/assets/logo-UPSO.png"></h5>
+
       </div>
-      <!-- Grid row -->
-  
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 d-none d-md-inline-block">
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/index.html">About us</a>
+          </li>
+          <li>
+            <a href="convenios.html">Convenios Internacionales</a>
+          </li>
+          <li>
+            <a href="carreras.html">Carreras</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+       <!--  <h6 class="text-uppercase">Redes Sociales</h6> -->
+
+       <ul class="list-unstyled">
+          <li>
+            <a href="novedades.html">Novedades</a>
+          </li>
+          <li>
+            <a href="testimonios.html">Testimonios</a>
+          </li>
+          <li>
+            <a href="contacto.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
     </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3"> 
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, molestiae!
-    </div>
-    <!-- Copyright -->
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"> 
+   Desarrollado en conjunto por el area de informatica y el area de internacionales.
+  </div>
+  <!-- Copyright -->
   
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -188,5 +194,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="js/map/world_countries.js"></script>
 <script src="js/test.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

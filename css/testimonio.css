@@ -216,8 +216,12 @@ h5 img{
 	}
 
 }
-footer a {
-    cursor: default;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.822);
-    }
+
+.testimonio{
+    font-size: 22px;
+    background-color: rgba(23, 135, 240, 0.267) !important;
+    border-radius: 10px;
+    padding: 30px;
+    border:double 1px rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.3) ;
+}
